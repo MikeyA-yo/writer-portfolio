@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Github, Linkedin, FileText, Quote, Send } from 'lucide-react';
 
 function App() {
