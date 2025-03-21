@@ -1,5 +1,5 @@
 import { Mail, Github, Linkedin, FileText, Quote, Send } from 'lucide-react';
-
+const titles = ["/The Art of Storytelling.pdf", "/The Rise of Renewable Energy.pdf", "/The Importance of Mental Health Awareness.pdf", "/Minimalistic-Type-AY.pdf"]
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -66,7 +66,7 @@ function App() {
                   A brief description of the writing project, highlighting key achievements
                   and the impact it had on the client's business.
                 </p>
-                <a href="#" className="text-gray-900 font-medium hover:underline">
+                <a href={titles[item-1]}  target="_blank" className="text-gray-900 font-medium hover:underline">
                   Read More →
                 </a>
               </div>
